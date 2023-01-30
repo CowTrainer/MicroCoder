@@ -48,18 +48,39 @@ Configurations have extension .upc when saved. These files can be saved and impo
 import .upm (Microprogram files) just for their configuration. 
 
 To import a configuration, click "File" and then "Load Configuration". Locate your desired file (if it is not appearing make sure you are filtering for 
-the correct file type in the bottom right corner
+the correct file type in the bottom right corner)
 
+### Importing an existing program
 
+You can import and expisting microprogram by using the "Load Microcode" button.
 
+## Editing
 
+There are many helpful features in the main editor. At it's core you can edit each value by double clicking on the respective cell. Signal rows can be edited with either decimal or hexadecimal values (if you can fit it in the bits), but cannot be edited using binary values.
 
+### Adding/Deleting Rows
 
+When you start with a new microprogram, you can add instructions by clicking on the "Microprogram" tab and clicking "New Instruction"
 
+After you have rows in the table, you can add instructions after them / delete them by right clicking on respective row header (Small box with the row number)
 
+### Moving rows
 
+You can move rows by dragging the row header to a spot in-between the headers of the two rows you want to move it into (or all the way to the end or start if you want it that way.
 
-Configuration files have a .upc extension, Microprograms have a .upm extension and contain the configuration they were built using, so you can start by importing one of them aswell
+### Signal Representation
+
+If you want to view the value of a signal output as a different radix, you can right click on any cell of that signal. A menu will pop up that will allow you to change the viewing radix of that signal's values.
+
+### Target Valdity Checking
+
+Sometimes you will see a red highlight on one of the target boxes. It indicates that you have an unresolved reference and will change to normal once a label is implemented with that target's name or the target is changed to a valid reference.
+
+## Exporting and Saving
+
+Once you are satisifed with your program, you can export to either the TDF or MIF file format. You can access this by going to the "Microprogram" tab and clicking on "Generate". A menu will come up allowing you to choose the radixes you export in.
+
+Also be sure to save perodically and before you exit the program. The editor will not notify you that your changes are unsaved, except for when the microcode file has not been saved at all (e.g. You made a new file and tried to exit the program).
 
 
 # Credits
