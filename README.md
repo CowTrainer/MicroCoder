@@ -15,7 +15,7 @@ Navigate to the MicroCoder_Release folder, and click on the executable Microcode
 
 ## Compile and run yourself
 
-If you have QT installed yourself, you can open QT Creator, go to Open File or Project, and select the Microcoder.pro file.
+If you have QT installed yourself, you can open QT Creator, go to Open File or Project, and select the Microcoder.pro file (located in Microcoder_Source)
 
 You can then run the program by building and running.
 
